@@ -6,7 +6,7 @@
 #    By: callwood <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/15 13:05:28 by callwood          #+#    #+#              #
-#    Updated: 2026/10/15 13:08:27 by callwood         ###   ########.fr        #
+#    Updated: 2026/10/15 17:01:38 by callwood         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,13 @@ SRCS		= ft_isalnum.c \
 			  ft_strchr.c \
 			  ft_strrchr.c \
 			  ft_tolower.c \
-			  ft_toupper.c
+			  ft_toupper.c \
+			  ft_memset.c \
+			  ft_bzero.c \
+			  ft_memcpy.c \
+			  ft_memmove.c \
+			  ft_memchr.c \
+			  ft_memcmp.c
  
 OBJS		= $(SRCS:%.c=$(OBJ_DIR)/%.o)
 

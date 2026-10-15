@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: callwood <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: callwood <callwood@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 12:49:18 by callwood          #+#    #+#             */
-/*   Updated: 2026/10/15 12:49:19 by callwood         ###   ########.fr       */
+/*   Updated: 2026/10/15 13:26:14 by callwood         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ char	*ft_strrchr(const char *s, int c)
 	char	*res;
 
 	i = 0;
-	res = NULL;
+	res = 0;
 	while (s[i])
 	{
 		if (s[i] == (char)c)
